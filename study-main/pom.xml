@@ -12,6 +12,11 @@
     <artifactId>study-main</artifactId>
 
     <dependencies>
+        <!--netty-->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
         <!-- JSON 开始 -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -26,6 +31,24 @@
             <artifactId>fastjson</artifactId>
         </dependency>
         <!-- JSON 结束 -->
+
+        <!--log4j 2-->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

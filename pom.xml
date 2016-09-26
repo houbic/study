@@ -14,6 +14,7 @@
 
     <!--主要依赖库版本号定义-->
     <properties>
+        <netty.version>4.0.14.Final</netty.version>
         <jackson.version>2.3.1</jackson.version>
         <fastjson.version>1.2.2</fastjson.version>
         <slf4j.version>1.7.6</slf4j.version>
@@ -23,6 +24,11 @@
 
     <dependencyManagement>
     <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty.version}</version>
+        </dependency>
         <!-- JSON 开始 -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
